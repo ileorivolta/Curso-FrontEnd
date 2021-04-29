@@ -100,8 +100,11 @@ body {
 }
 
 .carousel {
+    display: flex;
     width: 90%;
-    overflow: scroll;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
     padding-left: 20px;
     position: relative;
 }
@@ -140,11 +143,11 @@ body {
 }
 
 .carousel::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.1);
+    background-color: white;
 }
 
 .carousel::-webkit-scrollbar {
-    display: none;
+    height: 5px;
 }
 
 .carousel-item__img {
