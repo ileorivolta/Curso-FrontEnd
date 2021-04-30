@@ -28,7 +28,7 @@ body {
 }
 
 .cabecera__menu {
-    margin-right: 10px;
+    margin-right: 20px;
     color: white;
 }
 
@@ -101,6 +101,13 @@ body {
     color: white;
 }
 
+.categories__title {
+    color: white;
+    font-size: 1.6rem;
+    position: absolute;
+    padding-left: 30px;
+}
+
 .carousel {
     display: flex;
     width: 90%;
@@ -113,7 +120,7 @@ body {
 
 .carousel__container {
     white-space: nowrap; /*Esto hace que el contenido siga de largo*/
-    margin: 50px 0px;
+    margin: 60px 0px;
     padding-bottom: 10px;
 }
 
@@ -187,4 +194,27 @@ body {
 .carousel-item__details:hover {
     opacity: 1;
     color: white;
+}
+
+::-webkit-scrollbar { /*Quita las barritasde scroll*/
+    display: none;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }

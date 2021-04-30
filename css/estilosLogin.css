@@ -145,6 +145,10 @@ body {
     margin: 10px 0px;
 }
 
+::-webkit-scrollbar { /*Quita las barritasde scroll*/
+    display: none;
+}
+
 .footer {
     display: flex;
     align-items: center;

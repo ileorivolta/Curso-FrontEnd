@@ -111,6 +111,10 @@ body {
     text-decoration: underline;
 }
 
+::-webkit-scrollbar { /*Quita las barritasde scroll*/
+    display: none;
+}
+
 /*Footer*/
 .footer {
     display: flex;
